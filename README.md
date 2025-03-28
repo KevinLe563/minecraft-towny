@@ -20,3 +20,8 @@ Plugin Configs for a Towney MC server with the boys
 - Mythic Mobs
 - Graves
 - LWC
+
+# Upcoming Features
+
+- Player Ranks
+- Mythic weapons / armor / tools
