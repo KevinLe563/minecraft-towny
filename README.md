@@ -21,7 +21,26 @@ Plugin Configs for a Towney MC server with the boys
 - Graves
 - LWC
 
-# Upcoming Features
+## Ranks
+
+- Peasant 🏡
+- Novice 📜
+- Adept ⚒
+- Squire 🏇
+- Knight 🛡
+- Warrior ⚔
+- Champion 🏆
+- Elite 🌟
+- Sentinel 👁
+- Vanguard 🚀
+- Warlord 🔥
+- Baron 🎩
+- Overseer 🎭
+- Master 🏆
+- Overlord 🏯
+- Grandmaster 👑
+
+## Upcoming Features
 
 - Player Ranks
 - Mythic weapons / armor / tools
