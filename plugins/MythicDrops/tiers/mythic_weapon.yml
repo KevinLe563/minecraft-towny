@@ -38,8 +38,8 @@ lore:
   bonus-lore:
     - "&6Test Lore"
     - "&6Please Ignore"
-maximum-durability: 0.8
-minimum-durability: 0.75
+maximum-durability: 1
+minimum-durability: 1
 minimum-sockets: 0
 maximum-sockets: 6
 weight: 0.01
@@ -66,7 +66,3 @@ unbreakable: false
 chance-to-have-socket-extender-slots: 0.0
 minimum-socket-extender-slots: 0
 maximum-socket-extender-slots: 0
-
-
-
-
