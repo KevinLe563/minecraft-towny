@@ -1,0 +1,17 @@
+# This file stores custom item aliases.
+# NOTE: If you try and alias an item to another entry in this file, the alias won't work.
+
+aliases:
+  bluepaint: blue_dye
+  snad: sand
+  breakfast: cooked_porkchop
+
+legendary_scroll:
+  displayname: "&6&lLegendary Scroll"
+  material: PAPER
+  lore:
+    - "&7Right-click to receive a legendary reward!"
+  buy: 50000
+  sell: 0
+  commands:
+    - "minecraft:give %player% paper{display:{Name:\"\\\"Legendary Scroll\\\"\"},CustomModelData:1}"

@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 136.24.157.154
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1743057602989
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1743058072763
+  login: 1743056034823
+money: '9899919.009999999999990'
+last-account-name: kevincocpro
+logoutlocation:
+  world: ebdd10b6-47c0-4251-a344-97400a3233da
+  world-name: world
+  x: 6.009480080111116
+  y: 97.0
+  z: -7.327904741482389
+  yaw: -64.50875854492188
+  pitch: 36.56133270263672
+lastlocation:
+  world: ebdd10b6-47c0-4251-a344-97400a3233da
+  world-name: world
+  x: -3.4997312849734086
+  y: 89.0
+  z: -8.985466238804191
+  yaw: 0.07363802194595337
+  pitch: 0.036819010972976685
+homes:
+  home:
+    world: ebdd10b6-47c0-4251-a344-97400a3233da
+    world-name: world
+    x: 255.0074992726153
+    y: 67.0
+    z: -12.454318102887976
+    yaw: 29.5306396484375
+    pitch: 17.746734619140625

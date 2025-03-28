@@ -1,0 +1,27 @@
+version: 5.5.0
+socketsword:
+  display-name: '&2Socket Sword (Unique)'
+  material: WOODEN_SWORD
+  lore:
+  - '&7This sword has sockets!'
+  - '&2(Socket)'
+  - '&2(Socket)'
+  - '&2(Socket)'
+  - '&7Find a &2Socket Gem&7 to fill a &2(Socket)'
+  weight: 100.0
+  durability: 1
+  chance-to-drop-on-monster-death: 1.0
+  broadcast-on-find: true
+  custom-model-data: 0
+  enchantments:
+    minecraft:sharpness:
+      minimum-level: 5
+      maximum-level: 5
+    minecraft:looting:
+      minimum-level: 1
+      maximum-level: 2
+  rgb:
+    red: 0
+    green: 0
+    blue: 0
+
