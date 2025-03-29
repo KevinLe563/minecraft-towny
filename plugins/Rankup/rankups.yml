@@ -1,0 +1,44 @@
+#
+# If you are adding your own ranks, make sure to delete the example ranks!
+# Need help setting the plugin up?
+# Read the wiki: https://okx.sh/rankup/Home.html
+# Join the discord server for live support: https://discord.gg/maB4382 (buyers only)
+#
+
+# this name doesn't matter
+Aexample:
+  # the name of the group
+  # players have to be in this rank to rankup
+  rank: 'A'
+  # the name of the rank a player can rankup to
+  next: 'B'
+  # List of requirements to go to the next rank
+  # This example will charge 1000 money to rankup from A to B.
+  # https://okx.sh/rankup/List-of-Requirements.html
+  # custom requirements can also be added by other plugins.
+  requirements:
+    - 'money 1000'
+  # the console will run these commands when a player ranks up
+  # nb: groups are automatically changed with vault
+  #commands:
+  # this will run when a player ranks up from A to B.
+  #- 'say {{player}} well done for ranking up from {{rank.rank}} to {{next.rank}}!'
+Bexample:
+  rank: 'B'
+  next: 'C'
+  requirements:
+    - 'money 2500'
+Cexample:
+  rank: 'C'
+  next: 'D'
+  requirements:
+    - 'money 5000'
+    - 'xp-level 2'
+  # you can have a custom messages for each rank
+  # the paths of these messages are the same as in the messages for your locale
+  rankup:
+    requirements-not-met: '&cYou need 5000 money and 2 levels of XP to rankup to D.'
+    list:
+      complete: "&7{{rank.rank}} &8\xbb &7{{next.rank}} &e(5000 money, 2 XP levels)"
+      current: "&c{{rank.rank}} &e\xbb &c{{next.rank}} &e(5000 money, 2 XP levels)"
+      incomplete: "&r{{rank.rank}} &e\xbb &r{{next.rank}} &e(5000 money, 2 XP levels)"
