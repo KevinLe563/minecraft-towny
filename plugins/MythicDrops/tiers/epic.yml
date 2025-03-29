@@ -79,6 +79,7 @@ item-types:
     - chestplate
     - leggings
   disallowed-groups:
+    - netherite
     - diamond
   allowed-material-ids: []
   disallowed-material-ids: []
