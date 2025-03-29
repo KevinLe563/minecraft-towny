@@ -41,6 +41,24 @@ Keep Inventory: Off
 - Graves
 - LWC
 
+## Teleports
+
+TP's and Home's are disabled to help build community.
+
+Spawn warp is enabled.
+TPR (teleport random)
+
+### Commands
+
+```bash
+# warp to town spawn
+/warp spawn
+
+# teleport to random location
+# use this for job grinding
+/tpr
+```
+
 ## Ranks
 
 - Peasant 🏡
@@ -88,6 +106,11 @@ Other players cannot access the grave. Graves last for 3 hours.
 The main and only source of currency. See jobs reborn docs for more info.
 
 Note that when you leave a job, you will lose 30 levels in that job.
+
+Do NOT grind your jobs near the town. Use TPR command above.
+When grinding try to leave the landscape as presentable as possible.
+If massive holes and other leftover disasters like floating trees are found,
+you will be punished.
 
 ### Commands
 
