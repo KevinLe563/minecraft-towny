@@ -16,6 +16,12 @@ Plugin Configs for a Towney MC server with the boys
 - Cheats / Hacks
 - Commands other than the ones listed or `/help`
 
+## Town Mayors
+
+- Ace
+- Euphelia
+- DEtoX
+
 ## Banned Items
 
 - Elytra
