@@ -9,7 +9,7 @@ settings:
       # Grave #
       #########
       grave:
-        time: 10800 # (Second) How long graves should stay alive for, 300 = 5 minutes, 10800 = 3 hours, -1 lasts forever.
+        time: 1800 # (Second) How long graves should stay alive for, 300 = 5 minutes, 10800 = 3 hours, -1 lasts forever.
         max: 18 # The max amount of graves an entity can have.
         break: true # Can graves be broken.
         explode: false # Can graves be blown up.
@@ -170,16 +170,16 @@ settings:
         offset:
           # Distance from spawn point where particles can appear
           # Larger values create a more spread-out effect
-          x: 0  # Horizontal spread (left/right)
-          y: 0  # Vertical spread (up/down)
-          z: 0  # Depth spread (front/back)
+          x: 0 # Horizontal spread (left/right)
+          y: 0 # Vertical spread (up/down)
+          z: 0 # Depth spread (front/back)
 
         delta:
           # Random position variation within the spawn area
           # Higher values increase randomness of particle positions
-          x: 0  # Left/right randomization
-          y: 0  # Up/down randomization
-          z: 0  # Front/back randomization
+          x: 0 # Left/right randomization
+          y: 0 # Up/down randomization
+          z: 0 # Front/back randomization
 
         # Controls particle behavior, typically affects movement speed
         # Values between 0.0 (slow/stationary) and 1.0 (fast/dynamic)

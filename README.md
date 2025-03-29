@@ -105,7 +105,7 @@ Plugin to help players get their stuff back if they die.
 
 Dying will spawn a grave, player will revive with a compass pointing to it.
 
-Other players cannot access the grave. Graves last for 3 hours.
+Other players cannot access the grave. Graves last for 30 minutes.
 
 ## Jobs
 
