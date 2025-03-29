@@ -56,7 +56,7 @@ permission-rankup: false
 # luckperms-context: 'server=global' # to make all rankups global
 # luckperms-context: 'server=survival' # to make all rankups specific to survival
 # luckperms-context: 'server=survival world=world_nether' # to make all rankups specific to the nether world in survival
-luckperms-context: ''
+luckperms-context: ""
 
 # enable this option if you want Rankup to use the names of LuckPerms group, rather than their display names
 use-luckperms-group-names: false
@@ -68,7 +68,7 @@ enable-noconfirm: true
 
 # how people should confirm ranking up
 # options are: gui, text or none
-confirmation-type: 'gui'
+confirmation-type: "gui"
 
 # how long, in seconds, people have to wait between a successful /rankup or /prestige
 # set to 0 to disable.
@@ -122,10 +122,10 @@ placeholders:
 # the first represents thousands (1,000) then millions (1,000,000) then billions (1,000,000,000) etc.
 # this is used in the "| shortmoney" filter
 shorten:
-- 'K'
-- 'M'
-- 'B'
-- 'T'
-- 'Q'
-- 'Qu'
-- 'S'
+  - "K"
+  - "M"
+  - "B"
+  - "T"
+  - "Q"
+  - "Qu"
+  - "S"

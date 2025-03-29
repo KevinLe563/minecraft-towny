@@ -36,7 +36,7 @@ minimum-durability: 0.75
 minimum-sockets: 0
 maximum-sockets: 6
 weight: 0.01
-chance-to-drop-on-monster-death: 0.1
+chance-to-drop-on-monster-death: 0.001
 identity-weight: 0.01
 chance-to-have-sockets: 0.6
 broadcast-on-find: true
@@ -62,7 +62,3 @@ unbreakable: false
 chance-to-have-socket-extender-slots: 0.0
 minimum-socket-extender-slots: 0
 maximum-socket-extender-slots: 0
-
-
-
-
