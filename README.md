@@ -6,7 +6,7 @@ Plugin Configs for a Towney MC server with the boys
 
 1. No PVP unless consented by both players.
 2. No griefing
-3. All builds must be approved by town mayors. Unapproved builds can be built but must be 1500 blocks away. If not they are fair game to griefing.
+3. All builds must be approved by town mayors. Unapproved builds can be built but must be 2000 blocks away. If not they are fair game to griefing. Any builds that violate this in the way of town expansion will be removed.
 4. Glitches, bugs and unbalanced / unintentional mechanics should be reported immediately. Abusers will be banned.
    Eg.
 
