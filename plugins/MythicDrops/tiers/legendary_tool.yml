@@ -8,7 +8,7 @@ enchantments:
   allow-high-base-enchantments: true
   allow-high-bonus-enchantments: true
   base-enchantments:
-    - UNBREAKING:3:6
+    - UNBREAKING:5:10
   bonus-enchantments:
     - EFFICIENCY:5:7
     - FORTUNE:3:5

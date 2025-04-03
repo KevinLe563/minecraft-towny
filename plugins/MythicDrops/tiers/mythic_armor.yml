@@ -8,7 +8,7 @@ enchantments:
   allow-high-base-enchantments: true
   allow-high-bonus-enchantments: true
   base-enchantments:
-    - UNBREAKING:5:10
+    - UNBREAKING:7:10
   bonus-enchantments:
     - FIRE_PROTECTION:4:8
     - BLAST_PROTECTION:4:8
