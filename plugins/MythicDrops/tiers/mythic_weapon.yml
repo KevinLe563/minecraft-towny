@@ -1,0 +1,67 @@
+version: 1.7.0
+display-name: Mythic Weapon
+display-color: LIGHT_PURPLE
+identifier-color: LIGHT_PURPLE
+enchantments:
+  safe-base-enchantments: true
+  safe-bonus-enchantments: false
+  allow-high-base-enchantments: true
+  allow-high-bonus-enchantments: true
+  base-enchantments:
+    - UNBREAKING:5:10
+  bonus-enchantments:
+    - SHARPNESS:5:10
+    - SMITE:5:10
+    - BANE_OF_ARTHROPODS:5:10
+    - KNOCKBACK:2:4
+    - FIRE_ASPECT:2:4
+    - SWEEPING_EDGE:3:6
+    - POWER:5:10
+    - PUNCH:2:4
+    - FLAME:1:2
+    - INFINITY:1:2
+    - LOYALTY:3:6
+    - IMPALING:5:10
+    - RIPTIDE:3:6
+    - CHANNELING:1:2
+    - MULTISHOT:1:2
+    - QUICK_CHARGE:3:6
+    - PIERCING:4:8
+  minimum-bonus-enchantments: 4
+  maximum-bonus-enchantments: 8
+lore:
+  minimum-bonus-lore: 0
+  maximum-bonus-lore: 0
+  base-lore:
+    - "&6An item only the worthy can hold."
+  bonus-lore:
+    - "&6Test Lore"
+    - "&6Please Ignore"
+maximum-durability: 1
+minimum-durability: 1
+minimum-sockets: 0
+maximum-sockets: 6
+weight: 0.001
+chance-to-drop-on-monster-death: 1
+identity-weight: 0.001
+chance-to-have-sockets: 0.6
+broadcast-on-find: true
+item-types:
+  allowed-groups:
+    - weapon
+  disallowed-groups:
+    - leather
+    - chainmail
+    - gold
+    - iron
+    - wood
+    - stone
+    - diamond
+  allowed-material-ids: []
+  disallowed-material-ids: []
+minimum-distance-from-spawn: -1
+maximum-distance-from-spawn: -1
+unbreakable: false
+chance-to-have-socket-extender-slots: 0.0
+minimum-socket-extender-slots: 0
+maximum-socket-extender-slots: 0

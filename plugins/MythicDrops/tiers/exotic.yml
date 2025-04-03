@@ -1,0 +1,90 @@
+version: 1.7.0
+display-name: Exotic
+display-color: RED
+identifier-color: DARK_RED
+attributes:
+  base-attributes: []
+  bonus-attributes: []
+  minimum-bonus-attributes: 0
+  maximum-bonus-attributes: 0
+enchantments:
+  safe-base-enchantments: true
+  safe-bonus-enchantments: false
+  allow-high-base-enchantments: true
+  allow-high-bonus-enchantments: true
+  base-enchantments: []
+  bonus-enchantments:
+    - POWER:1:4
+    - SMITE:1:4
+    - SHARPNESS:1:4
+    - PROTECTION:1:4
+    - FIRE_PROTECTION:1:4
+    - BLAST_PROTECTION:1:4
+    - PROJECTILE_PROTECTION:1:4
+    - RESPIRATION:1:3
+    - AQUA_AFFINITY:1:1
+    - DEPTH_STRIDER:1:3
+    - FROST_WALKER:1:2
+    - THORNS:1:3
+    - FLAME:1:1
+    - BANE_OF_ARTHROPODS:1:4
+    - UNBREAKING:1:4
+    - FEATHER_FALLING:1:4
+    - INFINITY:1:1
+    - FIRE_ASPECT:1:2
+    - LOOTING:1:3
+    - PUNCH:1:4
+    - KNOCKBACK:1:4
+    - EFFICIENCY:1:4
+    - SILK_TOUCH:1:1
+    - FORTUNE:1:3
+    - LUCK_OF_THE_SEA:1:3
+    - LURE:1:3
+    - SWEEPING_EDGE:1:3
+    - QUICK_CHARGE:1:3
+    - MULTISHOT:1:1
+    - PIERCING:1:4
+    - CHANNELING:1:1
+    - RIPTIDE:1:3
+    - LOYALTY:1:3
+    - IMPALING:1:4
+    - SOUL_SPEED:1:3
+  minimum-bonus-enchantments: 5
+  maximum-bonus-enchantments: 8
+lore:
+  minimum-bonus-lore: 0
+  maximum-bonus-lore: 0
+  base-lore: []
+  bonus-lore: []
+maximum-durability: 0.9
+minimum-durability: 0.8
+minimum-sockets: 0
+maximum-sockets: 5
+weight: 0.5
+chance-to-drop-on-monster-death: 2.0
+identity-weight: 0.5
+chance-to-have-sockets: 0.5
+broadcast-on-find: false
+item-types:
+  allowed-groups:
+    - pickaxe
+    - sword
+    - shears
+    - axe
+    - hoe
+    - shovel
+    - bow
+    - fishing rod
+    - helmet
+    - boots
+    - chestplate
+    - leggings
+  disallowed-groups: []
+  allowed-material-ids: []
+  disallowed-material-ids: []
+minimum-distance-from-spawn: -1
+maximum-distance-from-spawn: -1
+unbreakable: false
+chance-to-have-socket-extender-slots: 0.0
+minimum-socket-extender-slots: 0
+maximum-socket-extender-slots: 0

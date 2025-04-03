@@ -1,0 +1,95 @@
+version: 1.7.0
+display-name: Legendary
+display-color: GOLD
+identifier-color: DARK_RED
+enchantments:
+  safe-base-enchantments: true
+  safe-bonus-enchantments: false
+  allow-high-base-enchantments: true
+  allow-high-bonus-enchantments: true
+  base-enchantments:
+    - UNBREAKING:5:10
+
+  bonus-enchantments:
+    - FIRE_PROTECTION:4:8
+    - BLAST_PROTECTION:4:8
+    - PROJECTILE_PROTECTION:4:8
+    - PROTECTION:4:10
+    - FEATHER_FALLING:4:8
+    - THORNS:3:6
+    - RESPIRATION:3:6
+    - AQUA_AFFINITY:1:2
+    - DEPTH_STRIDER:3:6
+    - FROST_WALKER:2:4
+    - SOUL_SPEED:3:6
+    - SHARPNESS:5:10
+    - SMITE:5:10
+    - BANE_OF_ARTHROPODS:5:10
+    - KNOCKBACK:2:4
+    - FIRE_ASPECT:2:4
+    - SWEEPING_EDGE:3:6
+    - EFFICIENCY:5:10
+    - SILK_TOUCH:1:2
+    - FORTUNE:3:6
+    - UNBREAKING:3:6
+    - POWER:5:10
+    - PUNCH:2:4
+    - FLAME:1:2
+    - INFINITY:1:2
+    - LUCK_OF_THE_SEA:3:6
+    - LURE:3:6
+    - LOYALTY:3:6
+    - IMPALING:5:10
+    - RIPTIDE:3:6
+    - CHANNELING:1:2
+    - MULTISHOT:1:2
+    - QUICK_CHARGE:3:6
+    - PIERCING:4:8
+  minimum-bonus-enchantments: 7
+  maximum-bonus-enchantments: 12
+lore:
+  minimum-bonus-lore: 0
+  maximum-bonus-lore: 0
+  base-lore:
+    - "&6An item only the worthy can hold."
+  bonus-lore:
+    - "&6Test Lore"
+    - "&6Please Ignore"
+maximum-durability: 0.8
+minimum-durability: 0.75
+minimum-sockets: 0
+maximum-sockets: 6
+weight: 0.01
+chance-to-drop-on-monster-death: 1
+identity-weight: 0.01
+chance-to-have-sockets: 0.6
+broadcast-on-find: true
+item-types:
+  allowed-groups:
+    - pickaxe
+    - sword
+    - shears
+    - axe
+    - hoe
+    - shovel
+    - bow
+    - fishing rod
+    - helmet
+    - boots
+    - chestplate
+    - leggings
+  disallowed-groups:
+    - leather
+    - chainmail
+    - gold
+    - iron
+    - wood
+    - stone
+  allowed-material-ids: []
+  disallowed-material-ids: []
+minimum-distance-from-spawn: -1
+maximum-distance-from-spawn: -1
+unbreakable: false
+chance-to-have-socket-extender-slots: 0.0
+minimum-socket-extender-slots: 0
+maximum-socket-extender-slots: 0

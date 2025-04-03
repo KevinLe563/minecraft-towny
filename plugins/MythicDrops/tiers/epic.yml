@@ -1,0 +1,90 @@
+version: 1.7.0
+display-name: Epic
+display-color: GREEN
+identifier-color: DARK_RED
+attributes:
+  base-attributes: []
+  bonus-attributes: []
+  minimum-bonus-attributes: 0
+  maximum-bonus-attributes: 0
+enchantments:
+  safe-base-enchantments: true
+  safe-bonus-enchantments: false
+  allow-high-base-enchantments: true
+  allow-high-bonus-enchantments: true
+  base-enchantments: []
+  bonus-enchantments:
+    - FIRE_PROTECTION:2:5
+    - FLAME:1:1
+    - BANE_OF_ARTHROPODS:2:5
+    - UNBREAKING:2:5
+    - FEATHER_FALLING:2:5
+    - BLAST_PROTECTION:2:5
+    - PUNCH:2:5
+    - POWER:2:5
+    - SMITE:2:5
+    - KNOCKBACK:2:5
+    - SHARPNESS:2:5
+    - PROTECTION:2:5
+    - PROJECTILE_PROTECTION:2:5
+    - RESPIRATION:2:3
+    - AQUA_AFFINITY:1:1
+    - DEPTH_STRIDER:2:3
+    - FROST_WALKER:2:3
+    - THORNS:2:3
+    - FIRE_ASPECT:2:3
+    - LOOTING:2:3
+    - EFFICIENCY:2:5
+    - SILK_TOUCH:1:1
+    - FORTUNE:2:3
+    - LUCK_OF_THE_SEA:2:3
+    - LURE:2:3
+    - SWEEPING_EDGE:2:3
+    - QUICK_CHARGE:2:3
+    - MULTISHOT:1:1
+    - PIERCING:2:4
+    - CHANNELING:1:1
+    - RIPTIDE:2:3
+    - LOYALTY:2:3
+    - IMPALING:2:5
+    - SOUL_SPEED:2:3
+  minimum-bonus-enchantments: 4
+  maximum-bonus-enchantments: 7
+lore:
+  minimum-bonus-lore: 0
+  maximum-bonus-lore: 0
+  base-lore: []
+  bonus-lore: []
+maximum-durability: 0.8
+minimum-durability: 0.75
+minimum-sockets: 0
+maximum-sockets: 4
+weight: 0.1
+chance-to-drop-on-monster-death: 1.0
+identity-weight: 0.1
+chance-to-have-sockets: 0.4
+broadcast-on-find: false
+item-types:
+  allowed-groups:
+    - pickaxe
+    - sword
+    - shears
+    - axe
+    - hoe
+    - shovel
+    - bow
+    - fishing rod
+    - helmet
+    - boots
+    - chestplate
+    - leggings
+  disallowed-groups:
+    - leather
+  allowed-material-ids: []
+  disallowed-material-ids: []
+minimum-distance-from-spawn: -1
+maximum-distance-from-spawn: -1
+unbreakable: false
+chance-to-have-socket-extender-slots: 0.0
+minimum-socket-extender-slots: 0
+maximum-socket-extender-slots: 0

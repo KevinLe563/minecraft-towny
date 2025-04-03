@@ -1,0 +1,185 @@
+# ezAuctions Configuration File #
+#################################
+
+data:
+  # Out of the box support for MySQL, MariaDB, and SQLite
+  # You can add support for Postgres, Microsoft SQL Server, H2, Derby, HSQLDB by including the appropriate drivers
+  # in your server
+  # If using something other than SQLite you must specify an EXISTING database
+  # example sqlite connection string 'jdbc:sqlite:plugins/ezAuctions/sqlite.db'
+  # example mysql connection string jdbc:mysql://host:port/database?useSSL=false
+  #                                 jdbc:mysql://localhost:3306/production?useSSL=false
+  #                   for mariadb:  jdbc:mariadb://localhost:3306/production?useSSL=false
+  connection-string: "jdbc:sqlite:plugins/ezAuctions/sqlite.db"
+  # leave blank if using sqlite
+  username: ""
+  password: ""
+
+general:
+  # Should we check for updates and notify players on join? Permission is ezauctions.updatemessage
+  check-updates: true
+  # Should we automatically download and apply plugin updates
+  auto-update: true
+  # Time between auctions (in seconds)
+  time-between: 5
+  # Players cannot do /auc cancel when the auction time is under this
+  minimum-cancel-time: 20
+  # What is the maximum amount of auctions that can be in the queue
+  auction-queue-limit: 3
+  # When putting auctions into the queue, what is the time in seconds that the player must wait before they
+  # are allowed to start an auction again?
+  # Set to 0 to disable
+  # use ezauctions.cooldownexempt permission to bypass this
+  queue-cooldown-time: 0
+  # when true, an info line containing the item and NBT will be logged to console whenever
+  # an auction enters/leaves queue or starts
+  # this can be used to restore items to user's in the event of a server crash
+  log-items-to-console: true
+
+auctions:
+  # Worlds that you cannot start auctions in
+  blocked-worlds:
+    - "example_world"
+
+  # Materials that cannot be auctions
+  # List of valid materials: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  blocked-materials:
+    - "bedrock"
+
+  # Commands that cannot be executed while you are participating in an auction
+  # Participants include the auctioneer and the bidders
+  # Please do not include the '/' in the command
+  blocked-commands:
+    - "nick"
+
+  # This means you can only place bids in the world where the auction was initiated and you can only
+  # receive items from the world where the auction was initiated
+  # Winnings will be stored in the database until the player re-enters the proper world
+  per-world-auctions: false
+  # This is intended for the per-world-auctions
+  # All auction messages will be limited to players inside the world in which the auction was started
+  per-world-broadcast: false
+
+  # When should we broadcast the time left in the auction?
+  broadcast-times: [45, 30, 15, 3, 2, 1]
+
+  # automatically cancel the auction after this many seconds have passed if there are no bids
+  # ex: auction time is 60 seconds from start, the value below is set to 40. If there are 20 seconds remaining with
+  # no bids, the auction will automatically cancel.
+  # set to 0 to never automatically cancel the auction
+  auto-cancel-no-bids: 0
+
+  fees:
+    # The price it costs to start an auction (set to 0 for no price)
+    start-price: 10
+    # The amount of money that is removed from the final bid
+    # Ex: Final bid is $500, tax is 20%; the auction starter only receives $400 (set to 0 for no tax)
+    tax-percent: 2.5
+
+  # Should only have "true" or false"
+  toggles:
+    # Should we deny players in creative mode from starting auctions?
+    deny-creative: false
+
+    # Should we restrict players to start auctions with items that are damaged?
+    restrict-damaged: false
+
+  # the number of digits allowed in each price
+  # ex: 0 -> $5, 1 -> $5.1, 2 -> 5.13
+  # recommend either leaving as 0 or setting to 2, but your economy structure may be different
+  decimal:
+    starting-price: 0
+    increment: 0
+    autobuy: 0
+    bid: 0
+
+  # Default uses for commands if players specify nothing
+  default:
+    # In seconds
+    auction-time: 60
+    increment: 1
+    # 0 is disabled
+    autobuy: 0
+
+  # If you want to disable player modification, set minimum & maximum to -1
+  # If you want there to be no maximum set that specific key to 0
+
+  minimum:
+    auction-time: -1
+    increment: 1
+    # The minimum here will be $0
+    autobuy: 0
+    # Minimum starting price for an auction. Set to 0 to disable
+    starting-price: 0
+
+  maximum:
+    auction-time: 180
+    increment: 0
+    autobuy: 10000000
+    # How many times can a player bid in a row before someone else bids?
+    consecutive-bids: 2
+    # Maximum starting price for an auction. 0 means any amount
+    starting-price: 0
+
+# They use the same settings as auctions
+sealed-auctions:
+  # Should we enable sealed auctions (bids don't show in chat)
+  enabled: true
+  # How many times should a player be allowed to bid?
+  max-bids: 1
+
+# Anti-snipe is to stop players from bidding last-second and winning
+antisnipe:
+  enabled: true
+  # The last X seconds which should be considered a snipe and have anti-snipe run
+  seconds-for-start: 15
+  # How many times can the anti-snipe run before cancelling?
+  run-times: 1000
+  # How much time should be added when anti-snipe is run?
+  time: 15
+
+# Scoreboard for auctions. Auto-updating
+scoreboard:
+  enabled: true
+
+# define a simple boundary with 2 corners that players are required to be in when starting auctions or placing bids
+# this is useful if you have a specific auction house location/building where you want players to gather to interact in auctions
+# this will mean you can only start/cancel auctions in a specific world! this does not prevent you from receiving
+# your items in other worlds. you can use per-world-auctions to achieve that
+boundary:
+  enabled: false
+  world: world
+  # enter x y z coordinates for corners 1 and 2
+  # in the example below player x and z must be between -5 and 5 and the y between 0 and 255
+  corner1:
+    x: -5
+    y: 0
+    z: -5
+  corner2:
+    x: 5
+    y: 255
+    z: 5
+
+help:
+  # this allows you to set the order in which commands appear when the auction help page is shown
+  # if the player does not have permission for the command, it will not be shown
+  # removing these will stop the help from showing for that command.
+  order:
+    - cancel
+    - disable
+    - enable
+    - end
+    - ignore
+    - ignoreplayer
+    - impound
+    - info
+    - queue
+    - reload
+    - update
+    - remove
+    - save
+    - scoreboard
+    - spam
+    - start
+    - startsealed
+    - bid

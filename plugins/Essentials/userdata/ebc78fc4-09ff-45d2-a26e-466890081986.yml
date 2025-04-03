@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 162.157.123.197
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1743058082412
+  login: 1743057581159
+money: '200280.0'
+last-account-name: Peplayerpro
+logoutlocation:
+  world: ebdd10b6-47c0-4251-a344-97400a3233da
+  world-name: world
+  x: 12.89291417538731
+  y: 92.0
+  z: 12.91306038389878
+  yaw: -98.9991683959961
+  pitch: 11.7166109085083

@@ -1,0 +1,103 @@
+defaultToNovice:
+  rank: "default"
+  next: "Novice"
+  requirements:
+    - "money 2500"
+    - "playtime-minutes 120"
+
+noviceToAdept:
+  rank: "Novice"
+  next: "Adept"
+  requirements:
+    - "money 10000"
+    - "playtime-minutes 300"
+
+adeptToSquire:
+  rank: "Adept"
+  next: "Squire"
+  requirements:
+    - "money 50000"
+    - "playtime-minutes 1200"
+
+squireToKnight:
+  rank: "Squire"
+  next: "Knight"
+  requirements:
+    - "money 150000"
+    - "playtime-minutes 1800"
+
+knightToWarrior:
+  rank: "Knight"
+  next: "Warrior"
+  requirements:
+    - "money 300000"
+    - "playtime-minutes 2400"
+
+warriorToChampion:
+  rank: "Warrior"
+  next: "Champion"
+  requirements:
+    - "money 500000"
+    - "playtime-minutes 3000"
+
+championToElite:
+  rank: "Champion"
+  next: "Elite"
+  requirements:
+    - "money 1000000"
+    - "playtime-minutes 4200"
+
+eliteToSentinel:
+  rank: "Elite"
+  next: "Sentinel"
+  requirements:
+    - "money 10000000"
+    - "playtime-minutes 5400"
+# sentinelToVanguard:
+#   rank: "Sentinel"
+#   next: "Vanguard"
+#   requirements:
+#     - "money 500000"
+#     - "playtime-minutes 4200"
+
+# vanguardToWarlord:
+#   rank: "Vanguard"
+#   next: "Warlord"
+#   requirements:
+#     - "money 750000"
+#     - "playtime-minutes 4800"
+
+# warlordToBaron:
+#   rank: "Warlord"
+#   next: "Baron"
+#   requirements:
+#     - "money 1000000"
+#     - "playtime-minutes 5400"
+
+# baronToOverseer:
+#   rank: "Baron"
+#   next: "Overseer"
+#   requirements:
+#     - "money 1500000"
+#     - "playtime-minutes 6000"
+
+# overseerToMaster:
+#   rank: "Overseer"
+#   next: "Master"
+#   requirements:
+#     - "money 2000000"
+#     - "playtime-minutes 7200"
+
+# masterToOverlord:
+#   rank: "Master"
+#   next: "Overlord"
+#   requirements:
+#     - "money 3000000"
+#     - "playtime-minutes 8400"
+
+# overlordToGrandmaster:
+#   rank: "Overlord"
+#   next: "Grandmaster"
+#   requirements:
+#     - "money 5000000"
+#     - "playtime-minutes 10000"

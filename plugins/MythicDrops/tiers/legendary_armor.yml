@@ -1,0 +1,63 @@
+version: 1.7.0
+display-name: Legendary Armor
+display-color: GOLD
+identifier-color: DARK_RED
+enchantments:
+  safe-base-enchantments: true
+  safe-bonus-enchantments: false
+  allow-high-base-enchantments: true
+  allow-high-bonus-enchantments: true
+  base-enchantments:
+    - UNBREAKING:3:6
+  bonus-enchantments:
+    - FIRE_PROTECTION:4:6
+    - BLAST_PROTECTION:4:6
+    - PROJECTILE_PROTECTION:4:6
+    - PROTECTION:4:7
+    - FEATHER_FALLING:4:6
+    - THORNS:3:5
+    - RESPIRATION:3:5
+    - AQUA_AFFINITY:1:2
+    - DEPTH_STRIDER:3:5
+    - FROST_WALKER:2:3
+    - SOUL_SPEED:3:5
+  minimum-bonus-enchantments: 2
+  maximum-bonus-enchantments: 5
+lore:
+  minimum-bonus-lore: 0
+  maximum-bonus-lore: 0
+  base-lore:
+    - "&6An item only the worthy can hold."
+  bonus-lore:
+    - "&6Test Lore"
+    - "&6Please Ignore"
+maximum-durability: 1
+minimum-durability: 1
+minimum-sockets: 0
+maximum-sockets: 6
+weight: 0.003
+chance-to-drop-on-monster-death: 1
+identity-weight: 0.003
+chance-to-have-sockets: 0.6
+broadcast-on-find: true
+item-types:
+  allowed-groups:
+    - helmet
+    - boots
+    - chestplate
+    - leggings
+  disallowed-groups:
+    - leather
+    - chainmail
+    - gold
+    - iron
+    - wood
+    - stone
+  allowed-material-ids: []
+  disallowed-material-ids: []
+minimum-distance-from-spawn: -1
+maximum-distance-from-spawn: -1
+unbreakable: false
+chance-to-have-socket-extender-slots: 0.0
+minimum-socket-extender-slots: 0
+maximum-socket-extender-slots: 0
