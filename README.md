@@ -47,6 +47,7 @@ Keep Inventory: Off
 - Graves
 - LWC
 - ezAuctions
+- executableItems
 
 ## Teleports
 
@@ -84,10 +85,12 @@ TPR (teleport random)
 - Champion 🏆
   - /enderchest
 - Elite 🌟
+  - 5 jobs
 - Sentinel 👁
   - /repair
     - Cost: 100K
 - Vanguard 🚀
+  - Mythic Loot Boxes # Coming soon!
 - Warlord 🔥
 - Baron 🎩
 - Overseer 🎭
@@ -181,8 +184,11 @@ Custom auction system. Auction and bid on items!
 
 Let me know if you would like to help keep the server running!
 
+## Recent Features
+
+- Legendary loot boxes (check town shop area)
+
 ## Upcoming Features
 
 - More player ranks
-- Mythic weapons / armor / tools gacha system
-- more perks with rankups
+- Mythic loot boxes
