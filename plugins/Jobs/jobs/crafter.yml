@@ -2,31 +2,33 @@ Crafter:
   fullname: Crafter
   shortname: Cr
   FullDescription:
-  - "Earns money from crafting items."
+    - "Earns money from crafting items."
   ChatColour: RED
   chat-display: full
   max-level: 200
   leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
-  income-progression-equation: (baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
-    * ((numjobs-1)*0.05)))*2
-  points-progression-equation: (basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
-    * ((numjobs-1)*0.05)))*2
-  experience-progression-equation: (baseexperience-(baseexperience*((numjobs-1) *0.01)))*2
+  income-progression-equation:
+    (baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05)))*7
+  points-progression-equation:
+    (basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05)))*7
+  experience-progression-equation: (baseexperience-(baseexperience*((numjobs-1) *0.01)))*7
   rejoinCooldown: 10
   maxDailyQuests: 1
   Quests:
-    '1':
+    "1":
       Name: Master Crafter
       Objectives:
-      - Craft;dispenser;10
-      - Craft;chest;10
-      - Craft;ladder;30
+        - Craft;dispenser;10
+        - Craft;chest;10
+        - Craft;ladder;30
       RewardCommands:
-      - eco give [playerName] 100
-      - msg [playerName] Completed quest!
+        - eco give [playerName] 100
+        - msg [playerName] Completed quest!
       RewardDesc:
-      - Craft and get money
-      - Get 100 for this!
+        - Craft and get money
+        - Get 100 for this!
   Gui:
     ItemStack: crafting_table
   Craft:
